@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #020617;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  width: 120px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  background: #22c55e;
+  border: none;
+  border-radius: 6px;
+  color: #000;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+.hidden {
+  display: none;
+}
+
+#palavraOculta {
+  letter-spacing: 6px;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+#mensagem {
+  font-weight: bold;
+  margin-top: 10px;
+}
